@@ -1,3 +1,19 @@
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+origin: 'top',
+distance: '80px',
+duration: 2000,
+reset: true
+});
+
+
+sr.reveal('.page__header', {}); 
+sr.reveal('._hero', {delay: 100}); 
+sr.reveal('.-sub', {delay: 200}); 
+sr.reveal('._difference', {delay: 200}); 
+
+
+//
 const formItem = document.querySelectorAll(".form._input");
 const formError = document.querySelectorAll(".form.-errorMessage");
 
